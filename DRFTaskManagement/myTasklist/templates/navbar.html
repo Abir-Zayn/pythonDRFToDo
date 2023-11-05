@@ -1,0 +1,38 @@
+<nav
+  class="navbar navbar-expand-lg bg-body-tertiary"
+  style="background-color: #e3f2fd"
+>
+  <div class="container-fluid">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="currentColor"
+      class="bi bi-4-circle-fill mx-2"
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z"
+      />
+    </svg>
+    <a class="navbar-brand" href="{% url 'homepage' %}">Work4Today</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Feature</a>
+        <a class="nav-link" href="{% url 'signupPage' %}">Start For Free</a>
+        <a class="nav-link" href="{% url 'loginPage' %}">Login</a>
+      </div>
+    </div>
+  </div>
+</nav>
